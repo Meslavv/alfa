@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zrobisie - Twoje Przykładowe Miejsce</title>
+    <style>
+        /* Stylizacja CSS */
+        /* Pozostała część stylizacji jak w poprzednich przykładach */
+        
+        /* Dodatkowa stylizacja dla formularza */
+        /* Stylizacja formularza jak w poprzednich przykładach */
+
+        /* Stylizacja okna modalnego */
+        /* Stylizacja okna modalnego jak w poprzednich przykładach */
+
+        /* Fajne rameczki dla kategorii */
+        /* Stylizacja kategorii jak w poprzednich przykładach */
+        
+        /* Wyśrodkowanie kategorii */
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav li {
+            margin: 0 10px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        nav li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        nav li:hover {
+            background-color: #f2f2f2;
+        }
+
+        /* Przycisk logowania w prawym górnym rogu */
+        /* Przycisk logowania jak w poprzednich przykładach */
+    </style>
+    <script>
+        // Funkcja otwierająca okno modalne
+        /* Funkcje JavaScript jak w poprzednich przykładach */
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Zrobisie</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#">Pomaluje</a></li>
+            <li><a href="#">Skoszę</a></li>
+            <li><a href="#">Naprawię</a></li>
+            <li><a href="#">RTV</a></li>
+            <li><a href="#">AGD</a></li>
+            <li><a href="#">PC/Laptopy</a></li>
+            <li><a href="#">Wyprowadzę psa</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <section>
+            <!-- Zawartość sekcji Pomaluje -->
+            <form action="/search" method="post">
+                <input type="text" name="query" placeholder="Szukaj">
+                <input type="submit" value="Szukaj">
+            </form>
+        </section>
+        
+        <section>
+            <!-- Zawartość sekcji Skoszę -->
+            <form action="/register" method="post">
+                <h1>Rejestracja</h1>
+
+                <input type="text" name="username" placeholder="Nazwa użytkownika">
+                <input type="password" name="password" placeholder="Hasło">
+                <input type="email" name="email" placeholder="Adres e-mail">
+
+                <h2>Umiejętności</h2>
+
+                <input type="checkbox" name="skills[]" value="Malowanie">Malowanie
+                <input type="checkbox" name="skills[]" value="Koszenie">Koszenie trawy
+                <input type="checkbox" name="skills[]" value="Naprawa">Naprawa sprzętu AGD
+                <input type="checkbox" name="skills[]" value="Transport">Transport
+                <input type="checkbox" name="skills[]" value="Inne">Inne
+
+                <input type="submit" value="Zarejestruj się">
+            </form>
+        </section>
+        
+        <section>
+            <!-- Zawartość sekcji Naprawię -->
+        </section>
+        
+        <section>
+            <!-- Zawartość sekcji RTV -->
+        </section>
+        
+        <section>
+            <!-- Zawartość sekcji AGD -->
+        </section>
+        
+        <section>
+            <!-- Zawart
