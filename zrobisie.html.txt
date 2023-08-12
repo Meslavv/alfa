@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zrobisie - Twoje Przykładowe Miejsce</title>
+    <style>
+        /* Stylizacja CSS można umieścić tutaj */
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Zrobisie</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#">Pomaluje</a></li>
+            <li><a href="#">Skoszę</a></li>
+            <li><a href="#">Naprawię</a>
+                <ul>
+                    <li><a href="#">RTV</a></li>
+                    <li><a href="#">AGD</a></li>
+                    <li><a href="#">PC/Laptopy</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Kontakt</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <section>
+            <h2>Pomaluje</h2>
+            <p>Witamy na stronie Pomaluje. Zajmujemy się profesjonalnym malowaniem i dekoracją wnętrz.</p>
+        </section>
+        
+        <section>
+            <h2>Skoszę</h2>
+            <p>Jesteśmy ekspertami w koszeniu trawy. Znajdziesz u nas najwyższej jakości usługi koszenia.</p>
+        </section>
+        
+        <section>
+            <h2>Naprawię</h2>
+            <p>Oferujemy szeroki zakres usług naprawczych, w tym naprawy sprzętu RTV, AGD oraz komputerów i laptopów.</p>
+            <ul>
+                <li><strong>RTV:</strong> Naprawa telewizorów, sprzętu audio, itp.</li>
+                <li><strong>AGD:</strong> Naprawa urządzeń gospodarstwa domowego, takich jak pralki, lodówki, itp.</li>
+                <li><strong>PC/Laptopy:</strong> Naprawa komputerów stacjonarnych i laptopów, diagnoza problemów, itp.</li>
+            </ul>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 Zrobisie - Twoje Przykładowe Miejsce. Wszelkie prawa zastrzeżone.</p>
+    </footer>
+</body>
+</html>
